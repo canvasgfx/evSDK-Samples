@@ -1,0 +1,138 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+apps/ev-designer/src/assets/wasm/2d-editor/debug
+apps/ev-designer/src/assets/wasm/2d-editor/en-US/debug
+apps/ev-designer/src/assets/wasm/2d-editor/ja-JP/debug
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+**/spec
+**/out-tsc
+**/.tsbuildinfo
+**/.tsbuildinfo.app
+/sdk/assets
+/sdk/canvas.js
+/sdk/styles.css
+/sdk/index_test*.html
+/sdk/index.html
+/docs
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.angular
+/.eslintcache
+.history/*
+
+# System Files
+.DS_Store
+Thumbs.db
+.nx
+
+# used to store info on current pull request
+*.pull_request
+.npmrc
+sdk-viewer*.zip
+sdk-creator*.zip
+sdk-pwa*.zip
+sdk-sample*.zip
+sdk-evConsume*.zip
+sdk-evCreate*.zip
+apps/ev-designer/src/assets/wasm/2d-editor/en-US/debug/evwasm_core.bin
+apps/ev-designer/src/assets/wasm/2d-editor/en-US/debug/evwasm_core.wasm
+apps/ev-designer/src/assets/wasm/2d-editor/en-US/debug/evwasm_core.worker.js
+
+# Sentry Config File
+.sentryclirc
+apps/ev-designer/src/assets/wasm/2d-editor/ja-JP/debug/evwasm_core.bin
+apps/ev-designer/src/assets/wasm/2d-editor/ja-JP/debug/evwasm_core.wasm
+apps/ev-designer/src/assets/wasm/2d-editor/ja-JP/debug/evwasm_core.worker.js
+apps/ev-designer/src/assets/wasm/2d-editor/ja-JP/debug/evwasm_mainthread_api.js
+
+# HOOPS converter tar.gz
+*hoops_converter*
+*cvcad_*
+
+# coulldn't get a local .gitignore to work in the workspace
+apps/core/build
+apps/core/lib
+
+# jest coverage report
+**/coverage
+
+# we use yarn, so remove package-lock.json
+
+**/package-lock.json
+
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# auto generated file:x
+swagger.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# generated file
+**/version.ts
+apps/pwa-viewer/src/version.js
+
+# never commit .env file
+**/.env
+
+# incremental build
+**/tsconfig.build.tsbuildinfo
+**/tsconfig.tsbuildinfo
+
+
+# assets for debug wasm used in evConsume SDK
+apps/client/src/assets/sdk/*/assets/wasm/2d-editor/en-US/debug
+apps/client/src/assets/sdk/*/assets/wasm/2d-editor/ja-JP/debug
+/.vs
+
+# assets for SDK consume samples on local machine
+apps/client/src/assets/sdk-consumption-samples/5.*
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
